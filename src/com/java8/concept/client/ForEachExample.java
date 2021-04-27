@@ -18,7 +18,9 @@ public class ForEachExample {
 	    // Iterate using forEach method with Methd ref
 	    empList.forEach(System.out::println);
 	    
-	    
+	    // iterate usning lambda exp
+	    System.out.println("using lambda exp...");
+	    empList.forEach(x-> System.out.println(x));
 
 	}
 
