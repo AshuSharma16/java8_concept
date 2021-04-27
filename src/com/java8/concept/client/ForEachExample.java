@@ -15,6 +15,7 @@ public class ForEachExample {
 	    
 	    List<Employee> empList = Arrays.asList(e1,e2,e3,e4);
 	    
+	    System.out.println("Using method ref");
 	    // Iterate using forEach method with Methd ref
 	    empList.forEach(System.out::println);
 	    
